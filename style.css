@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root{
+    --fonte-family: font-family: 'Open Sans', sans-serif;
+    --bg-color: #D6CC99;
+    --primary-color: #445D48 ;
+}
+
+body{
+    background-color: var(--bg-color);
+    font: var(--fonte-family);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.mensagem{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.box{
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4rem;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar{
+    background-color: var(--primary-color);
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+}
